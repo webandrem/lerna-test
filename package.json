@@ -1,0 +1,12 @@
+{
+  "name": "lerna-test",
+  "version": "1.0.0",
+  "description": "release without commit",
+  "main": "index.js",
+  "repository": "git@github.com:webandrem/lerna-test.git",
+  "author": "Andre Luiz Martins Ramos <andre@monito.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
