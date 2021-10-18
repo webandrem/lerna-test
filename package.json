@@ -6,6 +6,12 @@
   "repository": "git@github.com:webandrem/lerna-test.git",
   "author": "Andre Luiz Martins Ramos <andre@monito.com>",
   "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "api/*",
+      "fe/*"
+    ]
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },
