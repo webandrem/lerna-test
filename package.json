@@ -10,7 +10,7 @@
     "packages/*"
   ],
   "scripts": {
-    "new-version": "lerna version --conventional-commits --yes"
+    "new-version": "lerna version --yes --amend && git push --tags"
   },
   "dependencies": {
     "vue": "^2.6.14"
