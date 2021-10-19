@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/webandrem/lerna-test/compare/v1.0.3...v1.1.0) (2021-10-19)
+
+
+### Bug Fixes
+
+* fest ([d12e3d4](https://github.com/webandrem/lerna-test/commit/d12e3d4b11f4079b2e97cd490de3e41968230b12))
+* test ([e235138](https://github.com/webandrem/lerna-test/commit/e2351389ef689d144e2d786ce8526c985e586b52))
+
+
+### Features
+
+* test ([c73a85d](https://github.com/webandrem/lerna-test/commit/c73a85d5f473be413813b9356c145ae48b2c8fe4))
+
+
+
+
+
 ## 1.0.1 (2021-10-19)
 
 
