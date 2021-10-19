@@ -2,20 +2,20 @@
   "name": "lerna-test",
   "version": "1.0.0",
   "description": "release without commit",
-  "main": "index.js",
   "repository": "git@github.com:webandrem/lerna-test.git",
   "author": "Andre Luiz Martins Ramos <andre@monito.com>",
   "license": "MIT",
-  "workspaces": {
-    "packages": [
-      "api/*",
-      "fe/*"
-    ]
-  },
-  "devDependencies": {
-    "lerna": "^4.0.0"
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "new-version": "lerna version --conventional-commits --yes"
   },
   "dependencies": {
     "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }

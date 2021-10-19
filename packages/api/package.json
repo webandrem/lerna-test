@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "loadash": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo API package: $npm_package_version"
   }
 }
